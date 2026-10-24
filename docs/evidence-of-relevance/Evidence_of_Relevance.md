@@ -93,24 +93,3 @@ The following limitations remain:
 
 Further work will include dataset assessment, comparison with existing agricultural monitoring solutions, development of a trained machine learning model, and evaluation against available reference data.
 
-## 7. Conclusion
-
-The preliminary investigation indicates a practical need for software that simplifies multispectral UAV image analysis and helps users identify potentially problematic areas within agricultural fields.
-
-The expert consultations highlight the importance of accessible visualization, reliable processing, temporal analysis, and transparent machine learning evaluation.
-
-These findings provide an initial justification for the proposed intelligent agricultural monitoring system and guide its subsequent requirements, architecture, and evaluation plan.
-
----
-
-## Appendix A. Supporting Consultation Records
-
-The relevance assessment is supported by three consultation documents:
-
-- **Consultation A:** UAV and agricultural monitoring specialist.
-- **Consultation B:** AgroTech AITU specialist.
-- **Consultation C:** Computer Vision instructor.
-
-For final submission, each supporting record should include the verified respondent's name or approved identifier, role, consultation date, communication method, and an accessible link to the original evidence where permission allows.
-
-The original consultation records should be preserved separately rather than reproduced in full within the main report.
