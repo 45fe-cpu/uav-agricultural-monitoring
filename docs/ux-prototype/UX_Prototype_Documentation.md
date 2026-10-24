@@ -1,0 +1,54 @@
+# UAM-8: UX Prototype
+
+**Project:** Development of an Intelligent Software System for Agricultural Monitoring Using Multispectral UAV Imagery  
+**Status:** Preliminary interactive UX prototype  
+**Prototype file:** [`UX_Prototype.html`](./UX_Prototype.html)
+
+## Purpose
+
+This prototype demonstrates the proposed user journey for a web-based agricultural monitoring application. It is a front-end-only, self-contained HTML/CSS/JavaScript demonstration. No backend, image processing, model training, or user authentication is implemented. All maps, measurements, and predictions are illustrative sample data, not scientific results.
+
+## Proposed screens and user journey
+
+| Screen | User task | Related requirements |
+|---|---|---|
+| Login / Register | Preview registration and sign-in forms | FR-01, FR-02 |
+| Dashboard | Review field summaries and recent analyses | FR-08, FR-09 |
+| Upload imagery | Select a multispectral file and review analysis settings | FR-03, FR-04 |
+| Analysis results | Preview an NDVI visualization and model-result area | FR-05, FR-06, FR-08 |
+| Analysis details | Inspect processing information and export a sample CSV | FR-07, FR-10, FR-11 |
+
+**Primary flow:** Login / Register → Dashboard → Upload imagery → Analysis results → Analysis details → Export sample CSV.
+
+Navigation is also available from the left sidebar. The registration toggle, file picker, drag-and-drop file-name preview, navigation, and sample CSV export are interactive demonstration controls.
+
+## UX design decisions
+
+- A simple left-side navigation groups the primary tasks.
+- The upload page presents a clear starting point for image analysis.
+- The results page separates the vegetation map from analytical metrics.
+- Labels, legends, and explanations are included to help nontechnical users interpret results.
+- The interface is responsive for smaller screens.
+- Prototype-only data and actions are clearly labelled to avoid confusing simulated output with implemented functionality.
+
+## How to view
+
+Download or clone the repository and open `UX_Prototype.html` in a modern browser. No installation, internet connection, or server is required. You can also view the file through a static hosting service if one is configured; GitHub's ordinary source-file preview is not a live hosted app.
+
+## Planned implementation
+
+The production system is expected to connect a React interface to a FastAPI backend, use Rasterio/GDAL for raster processing, PyTorch for a trained model, and a database for user and analysis metadata. These are proposed technologies and are not implemented by this UX prototype.
+
+The crop, imagery dataset, band mapping, ML task, evaluation labels, and performance metrics will be finalized during subsequent development and supervisor review.
+
+## Limitations
+
+- No real login, registration, file upload, NDVI computation, or ML inference.
+- The field map is illustrative and is not georeferenced.
+- Example NDVI and zone values are synthetic and must not be used as scientific findings.
+- Export downloads a clearly labelled sample CSV, not actual model results.
+- Final screens may change after dataset selection and usability feedback.
+
+## Suggested screenshots
+
+Capture one screenshot of each of the five prototype screens and include the screenshots in the consolidated pre-defense report, alongside the GitHub link to this editable HTML source.
