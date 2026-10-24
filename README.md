@@ -7,8 +7,8 @@ Development of an Intelligent Software System for Agricultural Monitoring Using 
 ## Project Information
 - University: Astana IT University
 - Program: Software Engineering
-- Student(s): To be added
-- Supervisor: To be added
+- Student: Shunshalinova Zhanel 
+- Supervisor: Praveen Kumar
 - Status: Research and Design
 
 ## Problem Statement
