@@ -89,12 +89,36 @@ The literature suggests the following evaluation strategy:
 - Report model limitations and avoid unsupported disease-diagnosis claims.
 - Evaluate both machine learning performance and software functionality.
 
-## 8. Overall Conclusion
 
-The reviewed studies provide a strong foundation for developing a multispectral UAV agricultural monitoring system.
 
-They also demonstrate that model performance, vegetation-index usefulness, and prediction reliability depend heavily on crop type, sensor configuration, growth stage, and reference data.
+## 8. References
 
-Therefore, the proposed diploma project will prioritize a clearly defined prediction task, transparent model comparison, reliable image processing, and a functional web-based application.
+[1] Omia, E., et al. (2023). Remote Sensing in Field Crop Monitoring: A Comprehensive Review of Sensor Systems, Data Analyses and Recent Advances. *Remote Sensing, 15*(2), 354. https://doi.org/10.3390/rs15020354
 
-The final experimental methodology will be established after selecting and inspecting the agricultural dataset.
+[2] Matese, A., Czarnecki, J. M. P., Samiappan, S., & Moorhead, R. (2024). Are unmanned aerial vehicle-based hyperspectral imaging and machine learning advancing crop science? *Trends in Plant Science, 29*(2), 196–209. https://doi.org/10.1016/j.tplants.2023.09.001
+
+[3] Aziz, N. H., et al. (2024). Utilizing Spectral Indices on UAV Multispectral Images for Paddy Healthiness Detection: A Case Study in Perlis, Malaysia. *E3S Web of Conferences, 557*, 03005. https://doi.org/10.1051/e3sconf/202455703005
+
+[4] Camenzind, M. P., & Yu, K. (2024). Multi temporal multispectral UAV remote sensing allows for yield assessment across European wheat varieties already before flowering. *Frontiers in Plant Science, 14*, 1214931. https://doi.org/10.3389/fpls.2023.1214931
+
+[5] Zhu, H., et al. (2024). Intelligent agriculture: deep learning in UAV-based remote sensing imagery for crop diseases and pests detection. *Frontiers in Plant Science, 15*, 1435016. https://doi.org/10.3389/fpls.2024.1435016
+
+[6] Shahi, T. B., Xu, C.-Y., Neupane, A., & Guo, W. (2023). Recent Advances in Crop Disease Detection Using UAV and Deep Learning Techniques. *Remote Sensing, 15*(9), 2450. https://doi.org/10.3390/rs15092450
+
+[7] Ndour, A., et al. (2025). Optimal machine learning algorithms and UAV multispectral imagery for crop phenotypic trait estimation: a comprehensive review and meta-analysis. *Environmental Research Communications, 7*, 072002. https://doi.org/10.1088/2515-7620/ade84f
+
+[8] Khose, S. B., & Mailapalli, D. R. (2024). UAV-based multispectral image analytics and machine learning for predicting crop nitrogen in rice. *Geocarto International, 39*(1), 2373867. https://doi.org/10.1080/10106049.2024.2373867
+
+[9] Maulit, A., Nugumanova, A., Apayev, K., Baiburin, Y., & Sutula, M. (2023). A Multispectral UAV Imagery Dataset of Wheat, Soybean and Barley Crops in East Kazakhstan. *Data, 8*(5), 88. https://doi.org/10.3390/data8050088
+
+[10] Zhou, X., & Wu, Y. (2024). UAV-based multispectral imaging for real-time crop health assessment and yield estimation in wheat. *International Journal of Research in Agronomy, 7*(8), 218–221. https://doi.org/10.33545/2618060X.2024.v7.i8c.5216
+
+[11] Burchard-Levine, V., et al. (2024). Evaluating the utility of combining high resolution thermal, multispectral and 3D imagery from unmanned aerial vehicles to monitor water stress in vineyards. *Precision Agriculture, 25*, 2447–2476. https://doi.org/10.1007/s11119-024-10179-0
+
+[12] A Method for Automated Crop Health Monitoring in Large Areas Using Multi-Spectral Images and Deep Convolutional Neural Networks. (2026). *AgriEngineering, 8*(3), 109. https://doi.org/10.3390/agriengineering8030109
+
+
+
+
+
+
