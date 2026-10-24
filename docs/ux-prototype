@@ -48,7 +48,3 @@ The crop, imagery dataset, band mapping, ML task, evaluation labels, and perform
 - Example NDVI and zone values are synthetic and must not be used as scientific findings.
 - Export downloads a clearly labelled sample CSV, not actual model results.
 - Final screens may change after dataset selection and usability feedback.
-
-## Suggested screenshots
-
-Capture one screenshot of each of the five prototype screens and include the screenshots in the consolidated pre-defense report, alongside the GitHub link to this editable HTML source.
