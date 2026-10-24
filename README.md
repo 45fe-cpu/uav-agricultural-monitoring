@@ -56,7 +56,7 @@ UAV hardware development and autonomous drone flight control are outside the sco
 Documentation will be stored in the `docs/` directory.
 
 ## Project Management
-YouTrack project: To be added.
+YouTrack project: https://uav-diploma-aitu.youtrack.cloud/projects/UAM
 
 ## Setup and Testing
 Instructions will be added when the first runnable prototype is available.
