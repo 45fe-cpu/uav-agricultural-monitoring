@@ -1,0 +1,20 @@
+flowchart LR
+ User["Agronomist / Researcher"]
+ subgraph System["UAV Agricultural Monitoring System"]
+   Auth(["Register / Log in"])
+   Upload(["Upload multispectral imagery"])
+   Indices(["Calculate vegetation indices"])
+   Predict(["Run ML anomaly detection"])
+   View(["View imagery and maps"])
+   Compare(["Compare observations by date"])
+   Export(["Export analysis results"])
+ end
+ User --> Auth
+ User --> Upload
+ User --> Indices
+ User --> Predict
+ User --> View
+ User --> Compare
+ User --> Export
+ Upload -.->|Required input| Indices
+ Upload -.->|Required input| Predict

@@ -1,0 +1,7 @@
+flowchart TB
+  User["Agronomist / Researcher"]
+  System["UAV Agricultural Monitoring System"]
+  UAV["Multispectral UAV imagery / GeoTIFF files"]
+  User -->|Register, log in, upload imagery, request analysis| System
+  System -->|NDVI maps, anomaly predictions, reports| User
+  UAV -->|Input imagery| System

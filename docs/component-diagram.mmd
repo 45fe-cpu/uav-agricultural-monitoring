@@ -1,0 +1,15 @@
+flowchart LR
+  U["User browser"] --> FE["Web frontend"]
+  FE --> API["Backend API / Authentication"]
+  API --> IMG["GeoTIFF ingestion & validation"]
+  API --> IND["Vegetation index analysis"]
+  API --> ML["Trained ML inference"]
+  API --> RESULT["Map / Results service"]
+  IMG --> FS[("Image file storage")]
+  IMG --> IND
+  IMG --> ML
+  IND --> RESULT
+  ML --> RESULT
+  API --> DB[("User and analysis metadata database")]
+  RESULT --> FS
+  RESULT --> API
