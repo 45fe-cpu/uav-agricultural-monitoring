@@ -19,9 +19,9 @@ GitHub is used for version control and storing project artifacts. YouTrack is us
 | Mermaid | Editable architecture diagrams |
 | HTML/CSS/JavaScript | Interactive UX prototype |
 
-**GitHub Repository:** https://github.com/45fe-cpu/uav-agricultural-monitoring
+**GitHub Repository:** [https://github.com/45fe-cpu/uav-agricultural-monitoring](https://github.com/45fe-cpu/uav-agricultural-monitoring)
 
-**YouTrack Project:** https://uav-diploma-aitu.youtrack.cloud
+**YouTrack Project:** [https://uav-diploma-aitu.youtrack.cloud](https://uav-diploma-aitu.youtrack.cloud/projects/UAM)
 
 ## 3. Work Breakdown Structure
 
